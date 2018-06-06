@@ -1,0 +1,347 @@
+*,
+*::after,
+*::before {
+  @include box-sizing(border-box);
+}
+
+html { // stylelint-disable-line selector-no-type
+  @include text-size(default);
+}
+
+body { /* stylelint-disable-line selector-no-type */
+  @include font-smoothing;
+  font-family: $base-font-family;
+  color: $cresstec-body-color;
+  background-color: $base-bg-color;
+  position: relative;
+  overflow-x: hidden;
+
+  &.overflow-hidden {
+    overflow: hidden;
+  }
+}
+
+.full--height--container {
+  @media screen and (min-width: 1088px) {
+    min-height: 100vh;
+  }
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  @media screen and (max-width: 767px) {
+    padding: 25px;
+  }
+  @media screen and (min-width: 768px) {
+    padding: 0;
+  }
+  width: 195px;
+  height: auto;
+  .cls-1 {
+    fill: #FFFFFF;
+    stroke-width: 0;
+  }
+}
+
+.main-content {
+  overflow: hidden;
+}
+
+.section {
+  @media screen and (max-width: 1087px) {
+    padding: 25px;
+    align-items: center;
+  }
+  @media screen and (min-width: 1088px) {
+    padding: 45px 75px 45px 75px;
+    align-items: flex-start;
+  }
+  display: flex;
+  width: 100%;
+}
+
+// Circle
+.circle {
+  position: absolute;
+  border-radius: 50%;
+}
+.circle--large {
+  background-color: #19366E;
+}
+.circle--small {
+  background: linear-gradient(50deg, rgba(11, 142, 255, 1) 0%, rgba(38, 180, 199, 1) 100%);
+}
+
+// Circle Segmented
+.segmented--circle {
+  @media screen and (min-width: 320px) {
+    bottom: 10vw;
+    left: -1.5rem;
+    width: 150px;
+    height: 150px;
+  }
+}
+
+// Circuit
+.circuit--a {
+  .st1 {
+    fill: #26B4C7;
+  }
+  .st2 {
+    fill: none;
+  }
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+.circuit--b {
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+  .cls-1,
+  .cls-9 {
+    fill: none;
+    stroke: #459FDD;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+  }
+  .cls-1 {
+    stroke-width: 1.5px;
+  }
+  .cls-2 {
+    fill: #1B54A8;
+  }
+  .cls-3 {
+    fill: #26B4C7;
+  }
+  .cls-4 {
+    fill: #0093FF;
+  }
+  .cls-5 {
+    fill: #3087CE;
+  }
+  .cls-6 {
+    fill: #FF9090;
+  }
+  .cls-7 {
+    fill: #FF9D00;
+  }
+  .cls-9 {
+    stroke-width: 3px;
+  }
+}
+.circuit--c {
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+  .cls-1 {
+    fill: #FF9D00;
+  }
+  .cls-3 {
+    fill: #0093FF;
+  }
+  .cls-4 {
+    fill: #3087CE;
+  }
+  .cls-5 {
+    fill: #26B4C7;
+  }
+  .cls-6,
+  .cls-7 {
+    fill: none;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+  }
+  .cls-6 {
+    stroke: #1B54A8;
+    stroke-width: 15px;
+  }
+  .cls-7 {
+    stroke: #459FDD;
+    stroke-width: 1.5px;
+  }
+}
+
+// Small Circuit
+.small--circuit {
+  width: 150px;
+  height: auto;
+  .cls-1 {
+    fill: none;
+    stroke: #D0D0D0;
+  }
+  &.mirrored {
+    transform: scale(-1);
+  }
+  &.vertical {
+    transform: rotate(-90deg);
+  }
+  &.position--absolute {
+    position: absolute;
+  }
+}
+
+// Modules
+.module {
+  background: #FFFFFF;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
+  p {
+    font-size: 0.9rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+}
+
+// Icons
+.cresstec--icon svg {
+  width: 100%;
+  height: 100%;
+}
+// Brain Icons
+.brain--icon {
+  .cls-2 {
+    fill: #FFFFFF;
+  }
+  .cls-4 {
+    fill: #03163B;
+  }
+}
+
+// Circles
+.circles {
+  @media screen and (min-width: 320px) {
+    width: 100%;
+    height: auto;
+  }
+  position: absolute;
+  .cls-1,
+  .cls-3,
+  .cls-9 {
+    fill: none;
+  }
+  .cls-1,
+  .cls-3 {
+    stroke: #FF9D00;
+    stroke-width: 6px;
+  }
+  .cls-3 {
+    stroke: #FFFFFF;
+  }
+  .cls-8 {
+    stroke: none;
+  }
+}
+
+// Circuit Board
+
+.circuit--board {
+  .cls-1,
+  .cls-2 {
+    fill: none;
+    stroke: #12387C;
+  }
+  .cls-1,
+  .cls-2,
+  .cls-3 {
+    stroke-miterlimit: 10;
+  }
+  .cls-1 {
+    stroke-width: 3px;
+  }
+  .cls-2,
+  .cls-3 {
+    stroke-width: 2px;
+  }
+  .cls-3,
+  .cls-5 {
+    fill: #12387C;
+  }
+  .cls-3 {
+    stroke: #337CC4;
+  }
+  .cls-4 {
+    fill: #337CC4;
+  }
+}
+
+// To Top Button
+.scroll-to-top {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 12px;
+  color: $cresstec-body-color;
+}
+
+.show--on--mobile {
+  @media screen and (max-width: 1087px) {
+    display: block;
+  }
+  @media screen and (min-width: 1088px) {
+    display: none;
+  }
+}
+
+.show--on--desktop {
+  @media screen and (max-width: 1087px) {
+    display: none;
+  }
+  @media screen and (min-width: 1088px) {
+    display: block;
+  }
+}
+
+.float--right {
+  float: right;
+}
+
+.align--items--center {
+  align-items: center;
+}
+
+.columns {
+  width: 100%;
+}
+
+.column {
+  position: relative;
+}
+
+// Sixty Years Graphic
+.sixty--years--graphic {
+  width: 400px;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+.sixty--years--circles {
+  @media screen and (min-width: 1088px) {
+    width: 500px;
+  }
+  position: absolute;
+  z-index: 3;
+  .cls-7 {
+    fill: none;
+  }
+  .cls-5 {
+    stroke: none;
+  }
+}
+.sixty--years--segmented--circle {
+  @media screen and (min-width: 1088px) {
+    width: 250px;
+  }
+  position: absolute;
+  top: 0;
+  right: 50px;
+  z-index: -1;
+}

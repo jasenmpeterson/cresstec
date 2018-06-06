@@ -1,0 +1,36 @@
+
+.footer {
+  padding: 20px 50px;
+  .footer--logo {
+    a svg {
+      @media screen and (max-width: 1087px) {
+        width: 45px;
+        height: auto;
+      }
+      @media screen and (min-width: 1088px) {
+        width: 95px;
+        height: auto;
+      }
+    }
+    .cls-1 {
+      fill: #40BDA3;
+    }
+    .cls-3 {
+      fill: #1F438F;
+    }
+  }
+  .nav--footer {
+    @media screen and (min-width: 320px) {
+      display: none;
+    }
+  }
+  .copyright {
+    font-size: 12px;
+    display: block;
+  }
+  .icons--column {
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+  }
+}

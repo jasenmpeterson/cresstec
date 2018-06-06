@@ -1,0 +1,69 @@
+.header {
+  @media screen and (min-width: 768px) {
+    padding: 20px 50px;
+  }
+  .columns {
+    align-items: center;
+  }
+  .icon {
+    float: right;
+  }
+  .icon svg path {
+    fill: #FFFFFF;
+  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+  transition: all 400ms ease-in;
+}
+
+.header.scrolled {
+  background-color: #FFFFFF;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.02), 0 1px 4px rgba(0, 0, 0, 0.02), 0 0 40px rgba(0, 0, 0, 0.02) inset;
+  transition: all 400ms ease-out;
+  .logo {
+    .cls-1,
+    .cls-3 {
+      transition: fill 400ms ease-out;
+    }
+    .cls-1 {
+      fill: #42BDA3;
+    }
+    .blue,
+    .cls-3 {
+      fill: #1F438F;
+    }
+  }
+}
+
+.header.scrolled a {
+  color: #65748E;
+  transition: color 400ms ease-in;
+}
+
+body.page {
+  .header {
+    background-color: #FFFFFF;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.02), 0 1px 4px rgba(0, 0, 0, 0.02), 0 0 40px rgba(0, 0, 0, 0.02) inset;
+    transition: all 400ms ease-out;
+  }
+  .header a {
+    color: #65748E;
+    transition: color 400ms ease-in;
+  }
+  .logo {
+    .cls-1,
+    .cls-3 {
+      transition: fill 400ms ease-out;
+    }
+    .cls-1 {
+      fill: #42BDA3;
+    }
+    .blue,
+    .cls-3 {
+      fill: #1F438F;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+//Some stuff here is out of BEM because it is used inside WP as helpers or modifiers
+// Text sizes are refines via mixins as utility helpers
+
+.link {
+  @include link-colors;
+  display: flex;
+  align-items: center;
+  $this: &;
+}
+
+
+a { // stylelint-disable-line selector-no-type
+  @extend %link-transition;
+  color: map-deep-get($links-map, default, color);
+  text-decoration: none;
+
+  &:hover {
+    color: map-deep-get($links-map, default, hover);
+  }
+}
+
+strong { // stylelint-disable-line selector-no-type
+  font-weight: bold;
+}
+
+p {
+  &:last-child {
+    margin-bottom: 0;
+  }
+  line-height: 25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+h1 {
+  @media screen and (min-width: 1088px) {
+    font-size: 3em;
+  }
+}
+h3 {
+  @media screen and (min-width: 1088px) {
+    font-size: 1.8em;
+  }
+}
+
+// Title Bar
+.title--bar::before {
+  content: url(data:image/svg+xml;base64,PHN2ZyBpZD0iR3JvdXBfMTI5IiBkYXRhLW5hbWU9Ikdyb3VwIDEyOSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSI4OTMgMzIxIDg2IDMiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojMjZiNGM3fTwvc3R5bGU+PC9kZWZzPjxyZWN0IGlkPSJSZWN0YW5nbGVfMzYiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIDM2IiBjbGFzcz0iY2xzLTEiIHdpZHRoPSIxMSIgaGVpZ2h0PSIzIiByeD0iMS41IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg4OTMgMzIxKSIvPjxyZWN0IGlkPSJSZWN0YW5nbGVfMzgiIGRhdGEtbmFtZT0iUmVjdGFuZ2xlIDM4IiBjbGFzcz0iY2xzLTEiIHdpZHRoPSI1IiBoZWlnaHQ9IjMiIHJ4PSIxLjUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDk3NCAzMjEpIi8+PHJlY3QgaWQ9IlJlY3RhbmdsZV8zNyIgZGF0YS1uYW1lPSJSZWN0YW5nbGUgMzciIGNsYXNzPSJjbHMtMSIgd2lkdGg9IjU4IiBoZWlnaHQ9IjMiIHJ4PSIxLjUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDkxMCAzMjEpIi8+PC9zdmc+);
+  display: block;
+  margin-bottom: 1.5rem;
+  margin-left: -0.2rem;
+  width: 4rem;
+}
