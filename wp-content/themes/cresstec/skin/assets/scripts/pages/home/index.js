@@ -272,7 +272,7 @@ if ($('body').hasClass('home')) {
   let aboutSectionScene = new ScrollMagic.Scene({
     triggerElement: '.home--page.about--section',
     reverse: false,
-  }).addTo(homeController).addIndicators()
+  }).addTo(homeController)
     .on('enter', function() {
       aboutSectionTimeline.play();
     });
@@ -281,7 +281,7 @@ if ($('body').hasClass('home')) {
   let productsSectionScene = new ScrollMagic.Scene({
     triggerElement: '.home--page.products--section',
     reverse: false,
-  }).addTo(homeController).addIndicators()
+  }).addTo(homeController)
     .on('enter', function() {
       productsSectionTimeline.play();
     });

@@ -1,4 +1,4 @@
-<section class="about--page about">
+<section class="about--page about section">
 	<div class="background--image"></div>
 	<div class="columns">
 		<div class="column">

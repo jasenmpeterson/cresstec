@@ -22,6 +22,9 @@ body { /* stylelint-disable-line selector-no-type */
 }
 
 .full--height--container {
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+  }
   @media screen and (min-width: 1088px) {
     min-height: 100vh;
   }
@@ -33,12 +36,16 @@ body { /* stylelint-disable-line selector-no-type */
 .logo {
   @media screen and (max-width: 767px) {
     padding: 25px;
+    width: 195px;
   }
   @media screen and (min-width: 768px) {
     padding: 0;
+    width: 150px;
   }
-  width: 195px;
   height: auto;
+  a {
+    display: block;
+  }
   .cls-1 {
     fill: #FFFFFF;
     stroke-width: 0;
@@ -46,7 +53,11 @@ body { /* stylelint-disable-line selector-no-type */
 }
 
 .main-content {
-  overflow: hidden;
+  //perspective: 1px;
+  //transform-style: preserve-3d;
+  //height: 100vh;
+  overflow-x: hidden;
+  //overflow-y: scroll;
 }
 
 .section {
@@ -193,9 +204,6 @@ body { /* stylelint-disable-line selector-no-type */
   padding: 40px;
   text-align: center;
   box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
-  p {
-    font-size: 0.9rem;
-  }
   h3 {
     font-size: 1.2rem;
   }
@@ -308,24 +316,23 @@ body { /* stylelint-disable-line selector-no-type */
   align-items: center;
 }
 
-.columns {
-  width: 100%;
-}
-
 .column {
   position: relative;
 }
 
 // Sixty Years Graphic
 .sixty--years--graphic {
-  width: 400px;
+  @media screen and (max-width: 1087px) {
+    width: 85%;
+  }
   height: auto;
   position: relative;
   z-index: 2;
+  margin: 0 auto;
 }
 .sixty--years--circles {
-  @media screen and (min-width: 1088px) {
-    width: 500px;
+  @media screen and (max-width: 1087px) {
+    width: 60%;
   }
   position: absolute;
   z-index: 3;
@@ -337,11 +344,17 @@ body { /* stylelint-disable-line selector-no-type */
   }
 }
 .sixty--years--segmented--circle {
-  @media screen and (min-width: 1088px) {
-    width: 250px;
+  @media screen and (max-width: 1087px) {
+    width: 100%;
   }
   position: absolute;
   top: 0;
   right: 50px;
   z-index: -1;
 }
+
+// Parallax
+//.parallax {
+//  transform: translateZ(-1px) scale(2);
+//  z-index: -1;
+//}

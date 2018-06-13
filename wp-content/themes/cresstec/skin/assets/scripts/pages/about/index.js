@@ -1,18 +1,21 @@
-const Flickity = require('flickity');
+if (document.querySelector('.staff--carousel')) {
+  const Flickity = require('flickity');
 
-const flkty = new Flickity('.staff--carousel', {
-  prevNextButtons: false,
-  pageDots: false,
-  wrapAround: true,
-});
+  const flkty = new Flickity('.staff--carousel', {
+    prevNextButtons: false,
+    pageDots: false,
+    wrapAround: true,
+  });
 
-const previousButton = document.querySelector('.staff .previous--button');
-const nextButton = document.querySelector('.staff .next--button');
+  const previousButton = document.querySelector('.staff .previous--button');
+  const nextButton = document.querySelector('.staff .next--button');
 
-previousButton.addEventListener('click', function() {
-  flkty.previous();
-});
+  previousButton.addEventListener('click', function() {
+    flkty.previous();
+  });
 
-nextButton.addEventListener('click', function() {
-  flkty.next();
-});
+  nextButton.addEventListener('click', function() {
+    flkty.next();
+  });
+
+}
