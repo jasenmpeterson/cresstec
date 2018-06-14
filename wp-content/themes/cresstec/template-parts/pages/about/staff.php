@@ -1,4 +1,4 @@
-<section class="about--page staff section full--height--container">
+<section class="about--page staff section">
 	<div class="content--wrap">
         <div class="staff--carousel--buttons">
             <a class="previous--button"><ion-icon name="arrow-round-back"></ion-icon></a>

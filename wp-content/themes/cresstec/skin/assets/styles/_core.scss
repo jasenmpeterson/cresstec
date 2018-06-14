@@ -200,7 +200,7 @@ body { /* stylelint-disable-line selector-no-type */
 // Modules
 .module {
   background: #FFFFFF;
-  border-radius: 10px;
+  border-radius: 4px;
   padding: 40px;
   text-align: center;
   box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
@@ -322,18 +322,14 @@ body { /* stylelint-disable-line selector-no-type */
 
 // Sixty Years Graphic
 .sixty--years--graphic {
-  @media screen and (max-width: 1087px) {
-    width: 85%;
-  }
+  width: 525px;
   height: auto;
   position: relative;
   z-index: 2;
   margin: 0 auto;
 }
 .sixty--years--circles {
-  @media screen and (max-width: 1087px) {
-    width: 60%;
-  }
+  width: 60%;
   position: absolute;
   z-index: 3;
   .cls-7 {
@@ -344,13 +340,21 @@ body { /* stylelint-disable-line selector-no-type */
   }
 }
 .sixty--years--segmented--circle {
-  @media screen and (max-width: 1087px) {
-    width: 100%;
-  }
+  width: 100%;
   position: absolute;
   top: 0;
   right: 50px;
   z-index: -1;
+}
+
+// Full Height
+.is-full-height {
+  height: 100%;
+}
+
+// Page
+.page {
+  background: #E7EBF0;
 }
 
 // Parallax

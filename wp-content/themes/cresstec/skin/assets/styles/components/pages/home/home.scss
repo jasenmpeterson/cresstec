@@ -16,75 +16,43 @@
   background: linear-gradient(50deg, rgba(38, 180, 199, 1) 0%, rgba(3, 65, 137, 1) 100%);
   color: #FFFFFF;
   .content--wrap {
-    @media screen and (min-width: 650px) {
-      width: 60%;
-      margin-left: auto;
-    }
-    @media screen and (min-width: 769px) {
-      width: 100%;
-      margin-left: 0;
-    }
+    width: 100%;
+    margin-left: 0;
     position: relative;
     z-index: 15;
   }
   .circle--large {
-    @media screen and (max-width: 1087px) {
-      width: 700px;
-      height: 700px;
-      left: -350px;
-    }
-    @media screen and (min-width: 1088px) {
-      width: 1200px;
-      height: 1200px;
-      left: -650px;
-    }
+    width: 1200px;
+    height: 1200px;
+    left: -650px;
   }
   .circle--small {
-    @media screen and (max-width: 1087px) {
-      width: 250px;
-      height: 250px;
-      left: 0;
-    }
-    @media screen and (min-width: 1088px) {
-      width: 300px;
-      height: 300px;
-      left: 200px;
-    }
+    width: 300px;
+    height: 300px;
+    left: 200px;
     opacity: 0.5;
   }
   .segmented--circle {
-    @media screen and (min-width: 1088px) {
-      width: 300px;
-      height: 300px;
-      bottom: 4vw;
-    }
+    width: 300px;
+    height: 300px;
+    bottom: 4vw;
   }
   .circuit--a {
-    @media screen and (max-width: 1087px) {
-      display: none;
-    }
-    @media screen and (min-width: 1088px) {
-      display: block;
-      width: 1000px;
-      height: 1000px;
-      left: 0;
-      bottom: 0;
-      z-index: 5;
-    }
+    display: block;
+    width: 1000px;
+    height: 1000px;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
     transform: translateZ(-2px) scale(2);
     position: absolute;
   }
   .circuit--b {
-    @media screen and (max-width: 1087px) {
-      display: none;
-    }
-    @media screen and (min-width: 1088px) {
-      width: 1600px;
-      height: 1600px;
-      bottom: -600px;
-      left: -910px;
-      z-index: 5;
-    }
+    width: 1600px;
+    height: 1600px;
+    bottom: -600px;
+    left: -910px;
+    z-index: 5;
     position: absolute;
   }
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
@@ -99,21 +67,13 @@
   position: relative;
   padding-bottom: 75px;
   .circuit--b {
-    @media screen and (max-width: 1087px) {
-      width: 600px;
-      height: 600px;
-      left: 0;
-      bottom: 0;
-    }
-    @media screen and (min-width: 1088px) {
-      width: 1000px;
-      height: 1000px;
-      left: -400px;
-      margin: auto;
-      top: -400px;
-      bottom: auto;
-      z-index: 5;
-    }
+    width: 1000px;
+    height: 1000px;
+    left: -400px;
+    margin: auto;
+    top: -400px;
+    bottom: auto;
+    z-index: 5;
     opacity: 0.5;
     position: absolute;
   }
@@ -128,9 +88,7 @@
     z-index: 2;
   }
   .small--circuit {
-    @media screen and (min-width: 320px) {
-      width: 100px;
-    }
+    width: 100px;
     &.position--absolute {
       top: 0;
       bottom: 0;
@@ -140,10 +98,8 @@
   }
   .about--section--content,
   .about--section--modules {
-    @media screen and (min-width: 1280px) {
-      max-width: 90%;
-      margin: 45px auto;
-    }
+    max-width: 90%;
+    margin: 45px auto;
   }
   .about--section--modules {
     margin-top: 45px;
@@ -160,33 +116,22 @@
     margin: 0 auto 15px auto;
   }
   .segmented--circle--large {
-    @media screen and (max-width: 1087px) {
-      width: 150px;
-      height: auto;
-      right: 0;
-    }
-    @media screen and (min-width: 1088px) {
-      width: 350px;
-      height: auto;
-      right: 0;
-      bottom: 0;
-    }
+    width: 350px;
+    height: auto;
+    right: 0;
+    bottom: 0;
     position: absolute;
   }
 }
 
 // Products Section
 .home--page.products--section {
-  @media screen and (max-width: 1087px) {
-    padding-top: 45px;
-    padding-bottom: 45px;
-  }
+  padding-top: 45px;
+  padding-bottom: 45px;
   color: #FFFFFF;
   background-color: #03163B;
   .columns {
-    @media screen and (min-width: 1088px) {
-      min-height: 100vh;
-    }
+    min-height: 100vh;
     width: 100%;
     position: relative;
     justify-content: space-between;

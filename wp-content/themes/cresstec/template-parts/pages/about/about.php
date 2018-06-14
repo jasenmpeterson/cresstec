@@ -1,14 +1,14 @@
-<section class="about--page about section">
+<section class="about--page about">
 	<div class="background--image"></div>
 	<div class="columns">
-		<div class="column">
+		<div class="column is-full-mobile is-one-third-widescreen is-offset-1">
 			<div class="content--wrap">
 				<p class="title--bar">
 					We have over 60 years of combined experience in providing tailored solutions and engineering support to the world’s largest semiconductor manufacturers. We offer engineered solutions for O-Rings, Seals and most chamber components, as well as the most extensive OEM to OPM cross reference database in the business
 				</p>
 			</div>
 		</div>
-		<div class="column">
+		<div class="column is-full-mobile is-half-widescreen">
 			<div class="sixty--years--graphic">
 				<div class="sixty--years--circles">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="4292.322 656.629 505.669 474.013"><g id="Group_131" data-name="Group 131" transform="translate(3368)" fill="none"><g id="Path_168" data-name="Path 168"><path class="cls-5" d="M28.951 0a29 29 0 0 1 20.8 8.817A28.951 28.951 0 1 1 28.951 0z" transform="translate(927.509 1072.74)"/><path d="M28.95 54.902a25.868 25.868 0 0 0 18.35-7.6 25.868 25.868 0 0 0 7.602-18.351c0-3.462-.666-6.824-1.98-9.993a25.062 25.062 0 0 0-5.306-8.036C42.586 5.813 35.958 3 28.951 3a25.868 25.868 0 0 0-18.35 7.6A25.868 25.868 0 0 0 3 28.952a25.868 25.868 0 0 0 7.6 18.35 25.868 25.868 0 0 0 18.35 7.6m0 3C12.963 57.902 0 44.942 0 28.952 0 12.961 12.962 0 28.95 0c8.075 0 15.378 3.306 20.804 8.817 4.972 5.046 8.148 12.22 8.148 20.134 0 15.99-12.962 28.95-28.951 28.95z" fill="#0093ff" transform="translate(927.509 1072.74)"/></g><g id="Ellipse_128" data-name="Ellipse 128" transform="translate(924.322 872.434)" stroke-width="6" stroke="#26c7a8"><ellipse class="cls-5" cx="79.197" cy="79.197" rx="79.197" ry="79.197"/><ellipse class="cls-7" cx="79.197" cy="79.197" rx="76.197" ry="76.197"/></g><g id="Ellipse_127" data-name="Ellipse 127" transform="translate(959.767 656.629)" stroke="#ff9090" stroke-width="6"><ellipse class="cls-5" cx="55.936" cy="55.936" rx="55.936" ry="55.936"/><ellipse class="cls-7" cx="55.936" cy="55.936" rx="52.936" ry="52.936"/></g><g id="Ellipse_130" data-name="Ellipse 130" transform="translate(1318.119 816.021)" stroke="#ff9d00" stroke-width="6"><ellipse class="cls-5" cx="55.936" cy="55.936" rx="55.936" ry="55.936"/><ellipse class="cls-7" cx="55.936" cy="55.936" rx="52.936" ry="52.936"/></g></g></svg>
