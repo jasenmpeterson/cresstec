@@ -1,0 +1,51 @@
+.insights--wrapper {
+  h1 {
+    margin-bottom: 0;
+  }
+  .columns {
+    max-width: 80%;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .circular--accents--dark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  .newspaper--icon {
+    .cls-1 {
+      fill: #65748E;
+    }
+  }
+  .circular--accents--dark {
+    .cls-1 {
+      fill: #FF9D00;
+    }
+
+    .cls-2 {
+      fill: #FF9090;
+    }
+
+    .cls-3 {
+      fill: #26C7A8;
+    }
+
+    .cls-4 {
+      fill: #0B8EFF;
+    }
+
+    .cls-5,
+    .cls-6 {
+      fill: none;
+    }
+
+    .cls-5 {
+      stroke: #65748E;
+    }
+
+    .cls-6 {
+      stroke: #8396B5;
+    }
+  }
+}

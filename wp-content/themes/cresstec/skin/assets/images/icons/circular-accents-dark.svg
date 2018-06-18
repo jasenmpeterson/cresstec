@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="6906.891 199 139.902 111.922">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff9d00;
+      }
+
+      .cls-2 {
+        fill: #ff9090;
+      }
+
+      .cls-3 {
+        fill: #26c7a8;
+      }
+
+      .cls-4 {
+        fill: #0b8eff;
+      }
+
+      .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-5 {
+        stroke: #65748e;
+      }
+
+      .cls-6 {
+        stroke: #8396b5;
+      }
+    </style>
+  </defs>
+  <g id="Group_135" data-name="Group 135" transform="translate(6736)">
+    <g id="Group_134" data-name="Group 134">
+      <ellipse id="Ellipse_136" data-name="Ellipse 136" class="cls-1" cx="4.062" cy="4.062" rx="4.062" ry="4.062" transform="translate(179.014 199)"/>
+      <ellipse id="Ellipse_137" data-name="Ellipse 137" class="cls-2" cx="4.062" cy="4.062" rx="4.062" ry="4.062" transform="translate(271.078 293.772)"/>
+      <ellipse id="Ellipse_141" data-name="Ellipse 141" class="cls-2" cx="4.062" cy="4.062" rx="4.062" ry="4.062" transform="translate(212.41 209.831)"/>
+      <ellipse id="Ellipse_138" data-name="Ellipse 138" class="cls-3" cx="4.062" cy="4.062" rx="4.062" ry="4.062" transform="translate(260.247 214.344)"/>
+      <ellipse id="Ellipse_139" data-name="Ellipse 139" class="cls-4" cx="4.062" cy="4.062" rx="4.062" ry="4.062" transform="translate(170.891 252.253)"/>
+      <ellipse id="Ellipse_140" data-name="Ellipse 140" class="cls-4" cx="4.062" cy="4.062" rx="4.062" ry="4.062" transform="translate(292.741 273.013)"/>
+      <ellipse id="Ellipse_142" data-name="Ellipse 142" class="cls-4" cx="4.062" cy="4.062" rx="4.062" ry="4.062" transform="translate(220.534 302.798)"/>
+      <g id="Group_77" data-name="Group 77" transform="translate(230.462 207.123)">
+        <line id="Line_200" data-name="Line 200" class="cls-5" y2="6.318" transform="translate(3.159)"/>
+        <line id="Line_201" data-name="Line 201" class="cls-5" x1="6.318" transform="translate(0 3.159)"/>
+      </g>
+      <g id="Group_83" data-name="Group 83" transform="translate(269.274 276.623)">
+        <line id="Line_200-2" data-name="Line 200" class="cls-5" y2="6.318" transform="translate(3.159 0)"/>
+        <line id="Line_201-2" data-name="Line 201" class="cls-5" x1="6.318" transform="translate(0 3.159)"/>
+      </g>
+      <g id="Group_81" data-name="Group 81" transform="translate(272.884 237.812)">
+        <line id="Line_200-3" data-name="Line 200" class="cls-6" y2="6.318" transform="translate(3.159)"/>
+        <line id="Line_201-3" data-name="Line 201" class="cls-6" x1="6.318" transform="translate(0 3.159)"/>
+      </g>
+      <g id="Group_78" data-name="Group 78" transform="translate(200.676 299.188)">
+        <line id="Line_200-4" data-name="Line 200" class="cls-5" y2="6.318" transform="translate(3.159 0)"/>
+        <line id="Line_201-4" data-name="Line 201" class="cls-5" x1="6.318" transform="translate(0 3.159)"/>
+      </g>
+      <g id="Group_84" data-name="Group 84" transform="translate(267.473 295.408)">
+        <line id="Line_200-5" data-name="Line 200" class="cls-5" y2="4.641" transform="translate(2.321 0)"/>
+        <line id="Line_201-5" data-name="Line 201" class="cls-5" x1="4.641" transform="translate(0 2.321)"/>
+      </g>
+      <g id="Group_85" data-name="Group 85" transform="translate(304.475 237.812)">
+        <line id="Line_200-6" data-name="Line 200" class="cls-6" y2="6.318" transform="translate(3.159)"/>
+        <line id="Line_201-6" data-name="Line 201" class="cls-6" x1="6.318" transform="translate(0 3.159)"/>
+      </g>
+      <g id="Group_79" data-name="Group 79" transform="translate(279.202 260.376)">
+        <line id="Line_200-7" data-name="Line 200" class="cls-6" y2="6.318" transform="translate(3.159)"/>
+        <line id="Line_201-7" data-name="Line 201" class="cls-6" x1="6.318" transform="translate(0 3.159)"/>
+      </g>
+      <g id="Group_80" data-name="Group 80" transform="translate(187.137 235.104)">
+        <line id="Line_200-8" data-name="Line 200" class="cls-5" y2="6.318" transform="translate(3.159 0)"/>
+        <line id="Line_201-8" data-name="Line 201" class="cls-5" x1="6.318" transform="translate(0 3.159)"/>
+      </g>
+      <g id="Group_82" data-name="Group 82" transform="translate(190.748 275.721)">
+        <line id="Line_200-9" data-name="Line 200" class="cls-5" y2="6.318" transform="translate(3.159)"/>
+        <line id="Line_201-9" data-name="Line 201" class="cls-5" x1="6.318" transform="translate(0 3.159)"/>
+      </g>
+    </g>
+  </g>
+</svg>
