@@ -10,10 +10,12 @@ $menu             = new Menu\Menu();
 $blog_name        = get_bloginfo( 'name' );
 $blog_description = get_bloginfo( 'description' );
 $header_logo_info = $blog_name . ' - ' . $blog_description;
+$page_object = get_queried_object();
+$page_id = get_queried_object_id();
 ?>
 <div class="mobile--menu--wrap">
 	<?php
-	echo esc_html( $menu->bem_menu( 'header_main_nav', 'main-navigation' ) );
+        echo esc_html( $menu->bem_menu( 'header_main_nav', 'main-navigation' ) );
 	?>
 </div>
 <div class="header">
@@ -43,48 +45,9 @@ $header_logo_info = $blog_name . ' - ' . $blog_description;
             </span>
             <div class="primary--nav--wrap nav--wrap">
                 <nav>
-                    <ul>
-                        <li>
-                            <a href="/about">
-                                <div class="nav_wrap">
-                                    <span class="text">About</span>
-                                    <span class="hover">
-                                        <?php include('nav_hover.php'); ?>
-                                    </span>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div class="nav_wrap">
-                                    <span class="text">Products</span>
-                                    <span class="hover">
-                                        <?php include('nav_hover.php'); ?>
-                                    </span>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div class="nav_wrap">
-                                    <span class="text">Capabilities</span>
-                                    <span class="hover">
-                                        <?php include('nav_hover.php'); ?>
-                                    </span>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <div class="nav_wrap">
-                                    <span class="text">Insights</span>
-                                    <span class="hover">
-                                        <?php include('nav_hover.php'); ?>
-                                    </span>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
+	                <?php
+	                    echo esc_html( $menu->bem_menu( 'header_main_nav', 'main-navigation' ) );
+	                ?>
                 </nav>
             </div>
         </div>

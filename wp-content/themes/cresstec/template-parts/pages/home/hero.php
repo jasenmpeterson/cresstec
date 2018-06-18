@@ -1,3 +1,6 @@
+<?php
+    $hero_section = get_field('hero_section',26);
+?>
 <section class="home--page hero full--height--container">
     <div class="circle--large circle"></div>
     <div class="circle--small circle"></div>
@@ -13,8 +16,8 @@
     <div class="columns">
         <div class="column is-5 is-offset-7">
             <div class="content--wrap">
-                <h4 class="title--bar">Parts of the solution</h4>
-                <h1>Quickly find what you need through our 30,000 part database</h1>
+                <h4 class="title--bar"><?php echo $hero_section['sub_header']; ?></h4>
+                <h1><?php echo $hero_section['header']; ?></h1>
             </div>
         </div>
     </div>

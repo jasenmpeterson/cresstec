@@ -17,6 +17,8 @@ namespace Cresstec\Admin\Menu;
  */
 class Bem_Menu_Walker extends \Walker_Nav_Menu {
 
+	private $color_idx = 1;
+
   /**
    * Constructor function
    *
@@ -130,7 +132,7 @@ class Bem_Menu_Walker extends \Walker_Nav_Menu {
       }
     }
 
-    // Item classes.
+	// Item classes.
     $item_classes = array(
         'item_class'            => 0 === $depth ? $prefix . $suffix['item'] : '',
         'parent_class'          => $args->has_children ? $parent_class : '',
@@ -164,7 +166,8 @@ class Bem_Menu_Walker extends \Walker_Nav_Menu {
     );
 
     $link_text_class_string = implode( '  ', array_filter( $link_text_classes ) );
-    $link_text_class_output = 'class="' . $link_text_class_string . '"';
+
+    $link_text_class_output = 'class="text '. $link_text_class_string . '"';
 
     // link attributes.
     $attributes  = ! empty( $item->attr_title ) ? ' title="' . esc_attr( $item->attr_title ) . '"' : '';
@@ -172,14 +175,33 @@ class Bem_Menu_Walker extends \Walker_Nav_Menu {
     $attributes .= ! empty( $item->xfn ) ? ' rel="' . esc_attr( $item->xfn ) . '"' : '';
     $attributes .= ! empty( $item->url ) ? ' href="' . esc_attr( $item->url ) . '"' : '';
 
-    // Creatre link markup.
-    $item_output  = $args->before;
-    $item_output .= '<a' . $attributes . ' ' . $link_class_output . '><span ' . $link_text_class_output . '>';
-    $item_output .= $args->link_before;
-    $item_output .= apply_filters( 'the_title', $item->title, $item->ID );
-    $item_output .= $args->link_after;
-    $item_output .= $args->after;
-    $item_output .= '</span></a>';
+    // Create link markup.
+    if( 0 === $depth ) {
+	    $item_output  = $args->before;
+	    $item_output .= '<a' . $attributes . ' ' . $link_class_output . '><span ' . $link_text_class_output . '><div class="nav_wrap">';
+	    $item_output .= $args->link_before;
+	    $item_output .= apply_filters( 'the_title', $item->title, $item->ID );
+	    $item_output .= $args->link_after;
+	    $item_output .= $args->after;
+	    $item_output .= '</span><span class="hover">
+		<svg class="nav_hover" xmlns="http://www.w3.org/2000/svg" viewBox="2736 46 102.16 39.233">
+			<g id="Group_69" data-name="Group 69" transform="translate(3888.16 129.233) rotate(180)">
+				<path id="Path_156" data-name="Path 156" class="cls-1" d="M2734.061,48.583v33.65h98.1V47h-86.269" transform="translate(-1681)"/>
+				<circle id="Ellipse_120" data-name="Ellipse 120" class="cls-2" cx="3" cy="3" r="3" transform="translate(1050 44)"/>
+				<circle id="Ellipse_121" data-name="Ellipse 121" class="cls-2" cx="3" cy="3" r="3" transform="translate(1062 44)"/>
+			</g>
+		</svg>
+	</span></div></a>';
+    } else {
+	    $item_output  = $args->before;
+	    $item_output .= '<a' . $attributes . ' ' . $link_class_output . '><span class="nav--count">0'.$this->color_idx.'</span><span ' . $link_text_class_output . '>';
+	    $item_output .= $args->link_before;
+	    $item_output .= apply_filters( 'the_title', $item->title, $item->ID );
+	    $item_output .= $args->link_after;
+	    $item_output .= $args->after;
+	    $item_output .= '</span></a>';
+	    $this->color_idx++;
+    }
 
     $output .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args );
   }

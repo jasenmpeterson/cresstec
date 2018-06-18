@@ -6,6 +6,8 @@
 @import '~bulma/sass/grid/columns';
 @import '~bulma/sass/elements/icon';
 @import '~bulma/sass/elements/button';
+@import '~bulma/sass/elements/button';
+@import '~bulma/sass/base/helpers';
 @import 'components/vendors/flickity.css';
 
 // Utils
@@ -63,6 +65,13 @@
 // Pages
 @import 'components/pages/home/home';
 @import 'components/pages/about/about';
+@import 'components/pages/products/products';
 
 // Menu
 @import 'components/menu/menu';
+
+// Collapsible Menu
+@import 'components/collapsible-menu/collapsible-menu';
+
+// Sign Up
+@import 'components/sign-up/sign-up';

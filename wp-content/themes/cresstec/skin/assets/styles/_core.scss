@@ -21,6 +21,10 @@ body { /* stylelint-disable-line selector-no-type */
   }
 }
 
+.page .main-content {
+  margin-top: 80px;
+}
+
 .full--height--container {
   @media screen and (max-width: 767px) {
     flex-direction: column;
@@ -51,15 +55,6 @@ body { /* stylelint-disable-line selector-no-type */
     stroke-width: 0;
   }
 }
-
-.main-content {
-  //perspective: 1px;
-  //transform-style: preserve-3d;
-  //height: 100vh;
-  overflow-x: hidden;
-  //overflow-y: scroll;
-}
-
 .section {
   @media screen and (max-width: 1087px) {
     padding: 25px;
@@ -362,3 +357,123 @@ body { /* stylelint-disable-line selector-no-type */
 //  transform: translateZ(-1px) scale(2);
 //  z-index: -1;
 //}
+
+// Sidebar
+.sidebar {
+  h5 {
+    color: #0B8EFF;
+  }
+  h5,
+  li {
+    font-size: 14px;
+  }
+  li {
+    list-style-type: none;
+    margin-bottom: 16px;
+  }
+  li > span {
+    display: block;
+  }
+}
+.sidebar li ul li {
+  font-size: 12px;
+  a {
+    color: #93CDFF;
+  }
+  a:hover {
+    color: #FF9D00;
+  }
+}
+.sidebar li ul {
+  margin-top: 25px;
+  padding-left: 15px;
+  position: relative;
+  &::before {
+    content: '';
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -15px;
+    background-color: #459FDD;
+  }
+}
+.sidebar .aside--inner > ul {
+  padding: 0;
+}
+.sidebar,
+.sidebar a {
+  color: #FFFFFF;
+}
+.sidebar a:hover {
+  color: #26C7A8;
+}
+.sidebar .parent {
+  position: relative;
+  &::before {
+    content: '';
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 6px;
+    left: -15px;
+    background-color: #FFFFFF;
+  }
+}
+
+// Circular Accents
+.circular--accents {
+  .cls-1 {
+    fill: #FF9D00;
+  }
+
+  .cls-2 {
+    fill: #FF9090;
+  }
+
+  .cls-3 {
+    fill: #26C7A8;
+  }
+
+  .cls-4 {
+    fill: #0B8EFF;
+  }
+
+  .cls-5 {
+    fill: none;
+    stroke: #FFFFFF;
+  }
+}
+
+// Binoculars
+.binoculars {
+  .cls-1 {
+    fill: #FFFFFF;
+  }
+}
+
+// Page Content Wrap
+.page--content--wrap {
+  padding: 40px 80px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  h1:first-child {
+    margin: 0;
+  }
+}
+
+// Quote Button
+.request--a--quote--button {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  z-index: 5;
+  .button {
+    height: 85px;
+    min-width: 0;
+  }
+}

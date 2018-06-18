@@ -16,3 +16,4 @@ import './mobile-menu';
 import './header';
 import './pages/home/index';
 import './pages/about/index';
+import './components/collapsible-menu';

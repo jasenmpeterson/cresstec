@@ -1,11 +1,15 @@
 .button {
-  padding: calc(1.38em - 1px) 1.75em calc(1.38em - 1px) 1.75em;
+  padding: calc(2em - 1px) 1.75em calc(2em - 1px) 1.75em;
   border: none;
-  &.cresstec--blue {
+  border-radius: 0;
+  font-size: 14px;
+  min-width: 14rem;
+  color: #FFFFFF;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
+  &.cresstec--green {
     background-color: #26B4C7;
-    color: #FFFFFF;
-    border-radius: 0;
-    font-size: 14px;
-    min-width: 2rem;
+  }
+  &.cresstec--blue {
+    background-color: #0093FF;
   }
 }

@@ -1,3 +1,6 @@
+<?php
+$about_section = get_field('products_section', 26);
+?>
 <section class="home--page products--section section full--height--container">
 	<div class="columns">
 		<div class="column">
@@ -8,9 +11,9 @@
 		</div>
         <div class="column is-4 is-full-mobile">
             <div class="content--wrap">
-                <h1>Over 30,000 Products to explore!</h1>
-                <p>Mauris convallis odio in arcu dapibus cursus. Sed lobortis iaculis laoreet. Sed non dapibus massa.</p>
-                <a href="#" class="button cresstec--blue">View our products</a>
+                <h1><?php echo $about_section['header'];?></h1>
+	            <?php echo $about_section['content'];?>
+                <a href="<?php echo $about_section['button_link'];?>" class="button cresstec--blue">View our products</a>
             </div>
         </div>
 	</div>

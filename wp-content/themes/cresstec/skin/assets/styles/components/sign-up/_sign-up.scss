@@ -1,0 +1,21 @@
+.sign--up--cta {
+  margin-top: 45px;
+  .circular--accents,
+  .binoculars {
+    position: absolute;
+    top: 0;
+  }
+  .circular--accents {
+    width: 105%;
+    left: -5px;
+  }
+  h3 {
+    margin: 0;
+  }
+  .buttons--wrap {
+    margin-top: 25px;
+    .button:first-child {
+      margin-right: 15px;
+    }
+  }
+}

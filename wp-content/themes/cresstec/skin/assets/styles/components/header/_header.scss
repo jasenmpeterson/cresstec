@@ -41,7 +41,7 @@
   }
 }
 
-.header.scrolled a {
+.header.scrolled .main-navigation__item > a {
   color: #65748E;
   transition: color 400ms ease-in;
 }
@@ -55,7 +55,7 @@ body.page {
       fill: #1F438F;
     }
   }
-  .header a {
+  .header .main-navigation__item > a {
     color: #65748E;
     transition: color 400ms ease-in;
   }

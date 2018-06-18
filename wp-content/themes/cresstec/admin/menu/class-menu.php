@@ -79,7 +79,7 @@ class Menu {
    *
    * @since 2.0.0
    */
-  public function bem_menu( $location = 'main_menu', $css_class_prefix = 'main-menu', $css_class_modifiers = null, $echo = true ) {
+  public function bem_menu( $location = 'main_menu', $css_class_prefix = 'main-menu', $css_class_modifiers = null,  $echo = true ) {
 
       // Check to see if any css modifiers were supplied.
     if ( $css_class_modifiers ) {

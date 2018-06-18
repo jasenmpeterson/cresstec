@@ -1,0 +1,21 @@
+.collapsible-trigger {
+  cursor: pointer;
+}
+.collapsible-menu {
+  .collapsible-menu {
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+  }
+  .collapsible-menu.active {
+    visibility: visible;
+    height: auto;
+    margin-top: 25px;
+  }
+}
+.active-collapsible-trigger {
+  color: #26C7A8;
+}
+.active-collapsible-trigger::before {
+  background-color: #26C7A8 !important;
+}
