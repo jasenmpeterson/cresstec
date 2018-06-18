@@ -21,6 +21,11 @@ body { /* stylelint-disable-line selector-no-type */
   }
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .page .main-content {
   margin-top: 80px;
 }
@@ -364,7 +369,8 @@ body { /* stylelint-disable-line selector-no-type */
     color: #0B8EFF;
   }
   h5,
-  li {
+  li,
+  a {
     font-size: 14px;
   }
   li {
@@ -461,8 +467,12 @@ body { /* stylelint-disable-line selector-no-type */
   flex-direction: column;
   justify-content: center;
   position: relative;
+  font-size: 14px;
   h1:first-child {
     margin: 0;
+  }
+  li:not(:last-child) {
+    margin-bottom: 15px;
   }
 }
 
@@ -477,3 +487,4 @@ body { /* stylelint-disable-line selector-no-type */
     min-width: 0;
   }
 }
+

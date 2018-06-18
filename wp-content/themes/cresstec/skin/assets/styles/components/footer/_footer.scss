@@ -2,6 +2,8 @@
 .footer {
   padding: 20px;
   background-color: #FFFFFF;
+  position: relative;
+  z-index: 2;
   .footer--logo {
     a svg {
       @media screen and (max-width: 1087px) {

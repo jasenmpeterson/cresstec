@@ -1,5 +1,5 @@
 <?php
-    function getPartsDatabaseChildren($post_id = 48) {
+    function getPartsDatabaseChildren($post_id) {
 	    $children_args = array(
 		    'post_parent' => $post_id,
 		    'post_type' => 'page',
@@ -31,9 +31,10 @@
 <div class="column is-3">
 	<aside class="products--sidebar sidebar">
         <div class="aside--inner">
-            <h5><?php echo get_the_title(); ?></h5>
+            <h5>Parts Database</h5>
+            <a href="<?php echo get_permalink(50); ?>"><?php echo get_the_title(50); ?></a>
 	        <?php
-	            getPartsDatabaseChildren();
+	            getPartsDatabaseChildren(48);
 	        ?>
         </div>
     </aside>

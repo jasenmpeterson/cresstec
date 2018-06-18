@@ -1,4 +1,8 @@
-.page-template-template-products .main-content > .columns {
+.page-template-template-products .main-content > .columns,
+.page-template-template-single-products .main-content > .columns,
+.page-template-template-parent-products .main-content > .columns,
+.page-template-template-products-single .main-content > .columns,
+.page-template-template-cresstec-tool-viewer .main-content > .columns {
   min-height: 100vh;
 }
 .products--sidebar {
@@ -30,7 +34,7 @@
     width: 60%;
   }
   .inner--wrap {
-    max-width: 90%;
+    max-width: 80%;
     position: relative;
     z-index: 2;
   }
@@ -67,5 +71,138 @@
 
   .cls-7 {
     fill: #0093FF;
+  }
+}
+
+// Single Product
+.single--product .inner--wrap .columns {
+  align-items: center;
+}
+
+// Product Children
+.product--children {
+  margin-top: 35px;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    li:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    height: 120px;
+    &:hover {
+      color: #FFFFFF;
+    }
+  }
+}
+
+// Product Parent Page Circles
+.product--parent--page--circles {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  opacity: 0.6;
+  .cls-1,
+  .cls-3,
+  .cls-5,
+  .cls-6,
+  .cls-8 {
+    fill: none;
+  }
+  .cls-1 {
+    stroke: #26C7A8;
+  }
+  .cls-1,
+  .cls-3,
+  .cls-6 {
+    stroke-width: 6px;
+  }
+  .cls-3 {
+    stroke: #FF9090;
+  }
+  .cls-6 {
+    stroke: #FF9D00;
+  }
+  .cls-7,
+  .cls-9 {
+    stroke: none;
+  }
+  .cls-9 {
+    fill: #0093FF;
+  }
+}
+
+// Products Single Circles
+.products--single--circles {
+  position: absolute;
+  width: 80%;
+  top: -200px;
+  left: -200px;
+  opacity: 0.5;
+  .cls-1,
+  .cls-4,
+  .cls-5,
+  .cls-6,
+  .cls-8 {
+    fill: none;
+  }
+
+  .cls-1 {
+    stroke: #26C7A8;
+  }
+
+  .cls-1,
+  .cls-4,
+  .cls-6 {
+    stroke-width: 6px;
+  }
+
+  .cls-4 {
+    stroke: #FF9090;
+  }
+
+  .cls-6 {
+    stroke: #FF9D00;
+  }
+
+  .cls-7,
+  .cls-9 {
+    stroke: none;
+  }
+
+  .cls-9 {
+    fill: #0093FF;
+  }
+}
+
+// Single Product Page
+.single--product {
+  h5 {
+    margin: 0;
+    color: #26C7A8;
+  }
+  h5 ~ h1 {
+    margin-top: 0;
+  }
+}
+
+// Cresstec Tool Viewer
+.page--content--wrap.cresstec--tool--viewer {
+  background: #E7EBF0;
+  color: #65748E;
+  h1 {
+    color: #1B54A8;
+  }
+  h2 {
+    color: #8396B5;
+  }
+  img {
+    margin-top: 25px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
   }
 }
