@@ -1,4 +1,5 @@
 .insights--wrapper {
+  margin: 150px 0;
   h1 {
     margin-bottom: 0;
   }
@@ -7,18 +8,14 @@
     margin: 0 auto;
     align-items: center;
   }
+  .columns.posts {
+    margin-top: 45px;
+  }
   .circular--accents--dark {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-  }
-  .newspaper--icon {
-    .cls-1 {
-      fill: #65748E;
-    }
-  }
-  .circular--accents--dark {
     .cls-1 {
       fill: #FF9D00;
     }
@@ -47,5 +44,78 @@
     .cls-6 {
       stroke: #8396B5;
     }
+  }
+  .newspaper--icon {
+    .cls-1 {
+      fill: #65748E;
+    }
+  }
+}
+.filter--buttons {
+  .button {
+    min-width: 6rem;
+  }
+  .button:not(:last-child) {
+    margin-right: 15px;
+  }
+}
+article {
+  a {
+    background-color: #FFFFFF;
+    box-shadow: 0 7px 12px rgba(0,0,0,0.28);
+    border-radius: 2px;
+    display: block;
+    height: 700px;
+  }
+  .wrap {
+    color: #65748E;
+    position: relative;
+    height: 100%;
+  }
+  .content {
+    padding: 35px;
+  }
+  h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  span {
+    display: flex;
+    align-items: center;
+  }
+  .category {
+    display: inline-flex;
+    padding: 15px 30px;
+    color: #FFFFFF;
+  }
+  .date {
+    color: #26B4C7;
+  }
+  .image--block {
+    overflow: hidden;
+    height: 300px;
+    background-size: cover !important;
+    background-position: center center !important;
+  }
+  .read--more {
+    position: absolute;
+    bottom: 35px;
+    left: 35px;
+  }
+}
+.blog {
+  .category {
+    background-color: #0093FF;
+  }
+  .read--more {
+    color: #0093FF;
+  }
+}
+.case-study {
+  .category {
+    background-color: #FF9090;
+  }
+  .read--more {
+    color: #FF9090;
   }
 }

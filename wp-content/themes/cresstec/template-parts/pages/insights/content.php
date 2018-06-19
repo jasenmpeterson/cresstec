@@ -68,8 +68,55 @@
 		</svg>
 
 	</div>
-	<div class="column is-6">
+	<div class="column is-5">
 		<h1><?php the_title(); ?></h1>
         <?php the_content(); ?>
 	</div>
+    <div class="column">
+        <div class="filter--buttons is-pulled-right">
+            <p>Filter by:</p>
+            <a href="#" class="button cresstec--blue">blog</a>
+            <a href="#" class="button cresstec--pink">Case Study</a>
+        </div>
+    </div>
+</div>
+<div class="columns posts is-multiline">
+    <?php
+
+    $args = array(
+       'posts_per_page' => 12
+    );
+    $the_query = new WP_Query( $args );
+
+    if ( $the_query->have_posts() ):
+	    while ( $the_query->have_posts() ):
+		    $the_query->the_post();
+            $title = get_the_title();
+            $feat_image = get_the_post_thumbnail_url(get_the_ID(), 'full');
+            $cat = get_the_category();
+            $date = get_the_date('M j, Y');
+            $excerpt = wp_trim_words( get_the_excerpt(), 20, '...');
+
+    ?>
+    <div class="column is-4 <?php foreach($cat as $category): echo str_replace(' ', '-', strtolower($category->name)); endforeach; ?>">
+        <article>
+            <a href="<?php echo get_the_permalink();?>">
+                <div class="wrap">
+                    <div class="image--block" style="background: url('<?php echo $feat_image; ?>')"></div>
+                    <span class="category"><?php foreach($cat as $category): echo $category->name; endforeach; ?></span>
+                    <div class="content">
+                        <h3><?php echo $title; ?></h3>
+                        <span class="date"><?php echo $date; ?></span>
+	                    <?php echo wpautop($excerpt); ?>
+                    </div>
+                    <span class="read--more">read more <ion-icon name="arrow-forward"></ion-icon></span>
+                </div>
+            </a>
+        </article>
+    </div>
+    <?php
+        endwhile;
+            wp_reset_postdata();
+        endif;
+    ?>
 </div>
