@@ -79,8 +79,11 @@
 </div>
 <div class="page--content--wrap contact--wrap">
     <div class="columns">
-        <div class="column is-5">
-	        <?php the_content(); ?>
+        <div class="column is-8">
+	        <div class="wrap">
+		        <?php the_content(); ?>
+            </div>
+            <?php echo do_shortcode('[gravityform id="1" title="false" description="false"]') ;?>
         </div>
         <div class="column">
             <address class="is-pulled-right">
