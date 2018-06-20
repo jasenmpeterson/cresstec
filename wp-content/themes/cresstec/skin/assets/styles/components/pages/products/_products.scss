@@ -2,7 +2,8 @@
 .page-template-template-single-products .main-content > .columns,
 .page-template-template-parent-products .main-content > .columns,
 .page-template-template-products-single .main-content > .columns,
-.page-template-template-cresstec-tool-viewer .main-content > .columns {
+.page-template-template-cresstec-tool-viewer .main-content > .columns,
+.page-template-template-parts-database .main-content > .columns {
   min-height: 100vh;
 }
 .products--sidebar {
@@ -204,5 +205,45 @@
   img {
     margin-top: 25px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
+  }
+}
+
+// Products Search
+.page--content--wrap.products--search {
+  .inner--wrap {
+    max-width: 50em;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .circular--accents {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 120%;
+  }
+  .search--icon--wrap {
+    width: 100px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .product--children .columns {
+    max-width: 80em;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .product--children a {
+    height: 60px;
+    min-width: 0;
+    width: 100%;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  span {
+    display: inline-block;
   }
 }

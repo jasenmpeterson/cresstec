@@ -102,8 +102,9 @@
         <article>
             <a href="<?php echo get_the_permalink();?>">
                 <div class="wrap">
-                    <div class="image--block" style="background: url('<?php echo $feat_image; ?>')"></div>
-                    <span class="category"><?php foreach($cat as $category): echo $category->name; endforeach; ?></span>
+                    <div class="image--block" style="background: url('<?php echo $feat_image; ?>')">
+                        <span class="category"><?php foreach($cat as $category): echo $category->name; endforeach; ?></span>
+                    </div>
                     <div class="content">
                         <h3><?php echo $title; ?></h3>
                         <span class="date"><?php echo $date; ?></span>

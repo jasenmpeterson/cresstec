@@ -9,7 +9,6 @@ function getChildren($post_id) {
 		'order' => 'ASC'
 	);
 	$children = get_children($children_args);
-	$output = null;
 	if(!empty($children)) {
 		echo '<ul>';
 		foreach($children as $child) {

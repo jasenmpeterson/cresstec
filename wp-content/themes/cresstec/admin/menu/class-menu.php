@@ -54,6 +54,7 @@ class Menu {
     return array(
         'header_main_nav' => esc_html__( 'Main Menu', 'cresstec' ),
         'footer_main_nav' => esc_html__( 'Footer Menu', 'cresstec' ),
+        'secondary_nav' => esc_html__( 'Secondary Menu', 'cresstec' ),
     );
   }
 

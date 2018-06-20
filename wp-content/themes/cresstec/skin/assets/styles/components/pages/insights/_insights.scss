@@ -11,45 +11,6 @@
   .columns.posts {
     margin-top: 45px;
   }
-  .circular--accents--dark {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    .cls-1 {
-      fill: #FF9D00;
-    }
-
-    .cls-2 {
-      fill: #FF9090;
-    }
-
-    .cls-3 {
-      fill: #26C7A8;
-    }
-
-    .cls-4 {
-      fill: #0B8EFF;
-    }
-
-    .cls-5,
-    .cls-6 {
-      fill: none;
-    }
-
-    .cls-5 {
-      stroke: #65748E;
-    }
-
-    .cls-6 {
-      stroke: #8396B5;
-    }
-  }
-  .newspaper--icon {
-    .cls-1 {
-      fill: #65748E;
-    }
-  }
 }
 .filter--buttons {
   .button {
@@ -79,6 +40,9 @@ article {
     margin-top: 0;
     margin-bottom: 5px;
   }
+  p {
+    margin-top: 0;
+  }
   span {
     display: flex;
     align-items: center;
@@ -87,15 +51,31 @@ article {
     display: inline-flex;
     padding: 15px 30px;
     color: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
   }
   .date {
     color: #26B4C7;
+    margin: 15px 0;
   }
   .image--block {
     overflow: hidden;
     height: 300px;
     background-size: cover !important;
     background-position: center center !important;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 46px;
+      background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjY5MDYuNSA3MjUuNTkyIDM5OSAyODUuMTUxIj4gIDxkZWZzPiAgICA8c3R5bGU+ICAgICAgLmNscy0xIHsgICAgICAgIGZpbGw6ICNmZmY7ICAgICAgfSAgICA8L3N0eWxlPiAgPC9kZWZzPiAgPHBhdGggaWQ9IlBhdGhfMjExIiBkYXRhLW5hbWU9IlBhdGggMjExIiBjbGFzcz0iY2xzLTEiIGQ9Ik02OTIxLjUsNTEyLjM2M3MxMDUuMzg4LTI2LjA0LDIwNS4xMzgtMjYuMDQsMTkzLjg2MiwyNi4wNCwxOTMuODYyLDI2LjA0Vjc3MS40NzRoLTM5OVoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNSAyMzkuMjY5KSIvPjwvc3ZnPg==');
+      background-size: cover;
+    }
   }
   .read--more {
     position: absolute;

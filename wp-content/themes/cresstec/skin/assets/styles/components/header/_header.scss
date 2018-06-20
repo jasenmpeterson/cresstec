@@ -41,7 +41,8 @@
   }
 }
 
-.header.scrolled .main-navigation__item > a {
+.header.scrolled .main-navigation__item > a,
+.header.scrolled .secondary--nav--wrap--column a {
   color: #65748E;
   transition: color 400ms ease-in;
 }
@@ -55,9 +56,9 @@ body.page {
       fill: #1F438F;
     }
   }
-  .header .main-navigation__item > a {
+  .header .main-navigation__item > a,
+  .header .secondary--nav--wrap--column a {
     color: #65748E;
-    transition: color 400ms ease-in;
   }
   .logo {
     .cls-1,

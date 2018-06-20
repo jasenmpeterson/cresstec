@@ -19,19 +19,18 @@ $page_id = get_queried_object_id();
 	?>
 </div>
 <div class="header">
-<!--    <div class="columns secondary--nav--wrap--column">-->
-<!--        <div class="column">-->
-<!--            <div class="nav--wrap secondary--nav--wrap">-->
-<!--                <nav>-->
-<!--                    <ul>-->
-<!--                        <li><a href="#">Contact</a></li>-->
-<!--                        <li><a href="#">Login</a></li>-->
-<!--                    </ul>-->
-<!--                </nav>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-    <div class="columns is-mobile">
+    <div class="columns secondary--nav--wrap--column">
+        <div class="column">
+            <div class="nav--wrap secondary--nav--wrap">
+                <nav>
+	                <?php
+	                    echo esc_html( $menu->bem_menu( 'secondary_nav' ) );
+	                ?>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="columns is-gapless is-mobile">
         <div class="column is-one-fifth">
             <div class="logo">
                 <a href="<?php echo get_home_url(); ?>">

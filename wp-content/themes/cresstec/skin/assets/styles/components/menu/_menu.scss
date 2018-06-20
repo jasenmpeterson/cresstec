@@ -145,15 +145,6 @@
   stroke-opacity: 1;
   transition: stroke-opacity 1s ease-out, stroke-dashoffset 1s ease-out 0.1s;
 }
-
-// Secondary Nav
-.secondary--nav--wrap--column {
-  margin-bottom: 0 !important;
-}
-.secondary--nav--wrap {
-  margin-top: 15px;
-}
-
 // Drop Downs
 .main-navigation__sub-menu {
   position: absolute;
@@ -202,4 +193,21 @@ span.nav--count {
   display: inline-block;
   margin-right: 10px;
   color: #164191;
+}
+
+// Secondary Nav
+.secondary--nav--wrap--column {
+  margin-bottom: 0 !important;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+    }
+    a {
+      font-size: 14px;
+      color: #FFFFFF;
+    }
+  }
 }
