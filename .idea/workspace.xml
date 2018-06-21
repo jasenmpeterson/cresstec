@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be05297f-4484-4f9e-a3bc-0d58d269dda4" name="Default" comment="test">
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/pages/products/index.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/search.php" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/search.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/searchform.php" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/searchform.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/index.js" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/index.js" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/pages/about/index.js" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/pages/about/index.js" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/pages/home/index.js" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/pages/home/index.js" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/_core.scss" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/_core.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/application.scss" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/application.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/_single.scss" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/_single.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/buttons/_buttons.scss" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/buttons/_buttons.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/header/_header.scss" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/header/_header.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/menu/_menu.scss" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/menu/_menu.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/about/_about.scss" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/about/_about.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/typography/_content-typography-style.scss" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/typography/_content-typography-style.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/typography/_typography.scss" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/typography/_typography.scss" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/pages/about/about.php" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/pages/about/about.php" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/pages/about/staff.php" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/pages/about/staff.php" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/search-results/content.php" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/search-results/content.php" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/single/post.php" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/single/post.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/home/_home.scss" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/home/_home.scss" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/products/_products.scss" afterPath="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/products/_products.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -276,34 +267,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/pages/about/index.js">
+      <file leaf-file-name="_products.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/products/_products.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="160" column="55" lean-forward="false" selection-start-line="160" selection-start-column="55" selection-end-line="160" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-                <marker date="1529608068028" expanded="true" signature="4000:4150" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="staff.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/pages/about/staff.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="413">
+              <caret line="247" column="33" lean-forward="false" selection-start-line="247" selection-start-column="33" selection-end-line="247" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_about.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/about/_about.scss">
+      <file leaf-file-name="searchform.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/searchform.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="209" column="7" lean-forward="false" selection-start-line="209" selection-start-column="7" selection-end-line="209" selection-end-column="7" />
+            <state relative-caret-position="0">
+              <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_typography.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/typography/_typography.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="59" column="2" lean-forward="false" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/pages/products/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="85" lean-forward="false" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/pages/products/content.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1786">
+              <caret line="79" column="50" lean-forward="false" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -315,15 +323,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="FxmlFile" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.section</find>
       <find>padding: 200px</find>
       <find>nwboc--image</find>
       <find>gradient</find>
@@ -353,6 +360,7 @@
       <find>sidebar</find>
       <find>stroke</find>
       <find>draw</find>
+      <find>search--icon</find>
     </findStrings>
     <replaceStrings>
       <replace>1088px</replace>
@@ -375,9 +383,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/index.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/collapsible-menu/_collapsible-menu.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cresstec/page-products.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/sign-up/sign-up.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/sign-up/_sign-up.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/quote-button/quote-button.php" />
@@ -400,9 +405,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/pages/parts-database/content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cresstec/template-products.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/header/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cresstec/searchform.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/pages/products-parent/content.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/products/_products.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/pages/products/content.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/insights/_insights.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/search/_search.scss" />
@@ -421,11 +424,16 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/components/collapsible-menu.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/menu/_menu.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/buttons/_buttons.scss" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/pages/home/index.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/pages/about/about.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/pages/about/staff.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/pages/about/index.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/about/_about.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/pages/home/index.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/home/_home.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/pages/about/index.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/index.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cresstec/searchform.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/pages/products/index.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/products/_products.scss" />
       </list>
     </option>
   </component>
@@ -544,53 +552,7 @@
               <item name="cresstec" type="462c0819:PsiDirectoryNode" />
               <item name="skin" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="about_page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cresstec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cresstec" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="cresstec" type="462c0819:PsiDirectoryNode" />
-              <item name="skin" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cresstec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cresstec" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="cresstec" type="462c0819:PsiDirectoryNode" />
-              <item name="skin" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cresstec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cresstec" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="cresstec" type="462c0819:PsiDirectoryNode" />
-              <item name="skin" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="about" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cresstec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cresstec" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="cresstec" type="462c0819:PsiDirectoryNode" />
-              <item name="skin" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cresstec" type="b2602c69:ProjectViewProjectNode" />
@@ -636,7 +598,19 @@
               <item name="styles" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="about" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cresstec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cresstec" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="cresstec" type="462c0819:PsiDirectoryNode" />
+              <item name="skin" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="typography" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cresstec" type="b2602c69:ProjectViewProjectNode" />
@@ -663,7 +637,7 @@
               <item name="cresstec" type="462c0819:PsiDirectoryNode" />
               <item name="template-parts" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="about" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -825,7 +799,7 @@
       <workItem from="1529425882599" duration="25984000" />
       <workItem from="1529521753011" duration="2638000" />
       <workItem from="1529526140282" duration="988000" />
-      <workItem from="1529528048444" duration="10621000" />
+      <workItem from="1529528048444" duration="13416000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1528297444363</created>
@@ -838,7 +812,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195742000" />
+    <option name="totallyTimeSpent" value="198537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -931,20 +905,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/includes/class-main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3307">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/admin/menu/class-menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-388">
-          <caret line="56" column="49" lean-forward="false" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/page-about.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1054,31 +1014,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/searchform.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/listing/articles/grid.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/pages/products/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1786">
-          <caret line="79" column="50" lean-forward="false" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/products/_products.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="243" column="24" lean-forward="false" selection-start-line="243" selection-start-column="24" selection-end-line="243" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1207,14 +1146,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/typography/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="56" column="21" lean-forward="false" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/_core.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -1247,26 +1178,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/home/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2204">
-          <caret line="116" column="9" lean-forward="false" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/pages/home/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3971">
-          <caret line="210" column="21" lean-forward="false" selection-start-line="210" selection-start-column="21" selection-end-line="210" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/pages/about/about.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="13" column="183" lean-forward="false" selection-start-line="13" selection-start-column="183" selection-end-line="13" selection-end-column="183" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/about/_about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3971">
+          <caret line="209" column="7" lean-forward="false" selection-start-line="209" selection-start-column="7" selection-end-line="209" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1279,21 +1202,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/pages/home/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/home/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="35" column="14" lean-forward="false" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/pages/about/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="160" column="55" lean-forward="false" selection-start-line="160" selection-start-column="55" selection-end-line="160" selection-end-column="55" />
+        <state relative-caret-position="124">
+          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="57" />
           <folding>
-            <element signature="e#0#51#0" expanded="true" />
-            <marker date="1529608068028" expanded="true" signature="4000:4150" ph="..." />
+            <marker date="1529608675962" expanded="true" signature="3902:4052" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/about/_about.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="209" column="7" lean-forward="false" selection-start-line="209" selection-start-column="7" selection-end-line="209" selection-end-column="7" />
+        <state relative-caret-position="285">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/template-parts/pages/products/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1786">
+          <caret line="79" column="50" lean-forward="false" selection-start-line="79" selection-start-column="50" selection-end-line="79" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/searchform.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="39" lean-forward="false" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/scripts/pages/products/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="85" lean-forward="false" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/typography/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="59" column="2" lean-forward="false" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cresstec/skin/assets/styles/components/pages/products/_products.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="247" column="33" lean-forward="false" selection-start-line="247" selection-start-column="33" selection-end-line="247" selection-end-column="33" />
           <folding />
         </state>
       </provider>

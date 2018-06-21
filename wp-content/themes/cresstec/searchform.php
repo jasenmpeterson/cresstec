@@ -7,6 +7,6 @@
 
             </span>
         </label>
-		<input type="text" value="" name="s" id="s" placeholder="Search Products" />
+		<input class="search--input" type="text" value="" name="s" id="s" placeholder="Search Products" />
 	</div>
 </form>

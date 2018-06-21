@@ -5,11 +5,13 @@
   }
   h1 {
     margin-top: 0;
-    text-shadow: 1px 1px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+    opacity: 0;
   }
   h4 {
     margin-bottom: 10px;
-    text-shadow: 1px 1px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+    opacity: 0;
   }
   perspective: 2px;
   overflow: hidden;
@@ -25,17 +27,19 @@
     width: 1200px;
     height: 1200px;
     left: -650px;
+    opacity: 0;
   }
   .circle--small {
     width: 300px;
     height: 300px;
     left: 200px;
-    opacity: 0.5;
+    opacity: 0;
   }
   .segmented--circle {
     width: 300px;
     height: 300px;
     bottom: 4vw;
+    opacity: 0;
   }
   .circuit--a {
     display: block;
@@ -46,6 +50,7 @@
     z-index: 5;
     transform: translateZ(-2px) scale(2);
     position: absolute;
+    opacity: 0;
   }
   .circuit--b {
     width: 1600px;
@@ -54,6 +59,7 @@
     left: -910px;
     z-index: 5;
     position: absolute;
+    opacity: 0;
   }
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
 }

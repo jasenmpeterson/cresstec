@@ -228,6 +228,12 @@
     width: 100px;
     margin: 0 auto;
     position: relative;
+    opacity: 0;
+    transform: scale(0);
+  }
+  .search--input {
+    opacity: 0;
+    transform: translateY(50px);
   }
   .product--children .columns {
     max-width: 80em;
@@ -238,12 +244,24 @@
     height: 60px;
     min-width: 0;
     width: 100%;
+    opacity: 0;
+    transform: translateX(200px);
   }
   p {
     margin-top: 0;
     margin-bottom: 25px;
   }
+  p span {
+    font-size: $size-7;
+  }
   span {
     display: inline-block;
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  h2,
+  p {
+    opacity: 0;
+    transform: translateY(50px);
   }
 }

@@ -2,8 +2,6 @@ import {TweenMax, TimelineMax, Power2} from 'gsap';
 import '../../vendors/DrawSVGPlugin';
 
 const ScrollMagic = require('scrollmagic');
-require('animation.gsap');
-require('debug.addIndicators');
 
 // Hero Animation
 function heroAnimation() {
