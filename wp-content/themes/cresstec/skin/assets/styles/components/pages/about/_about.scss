@@ -2,6 +2,12 @@
   height: 750px;
   position: relative;
   background: url('../../assets/images/about_page/about_main-image.png') no-repeat right top;
+  h1,
+  p {
+    transform: translateY(200px);
+    -webkit-transform-style: preserve-3d;
+    opacity: 0;
+  }
   .columns {
     align-items: center;
     height: 100%;
@@ -69,6 +75,22 @@
   .columns {
     align-items: center;
   }
+  .sixty--years--segmented--circle,
+  .sixty--years--text,
+  p {
+    opacity: 0;
+  }
+  .sixty--years--circles ellipse,
+  .sixty--years--segmented--circle {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  .sixty--years--text {
+    transform: translateX(-200px);
+  }
+  p {
+    transform: translateX(200px);
+  }
 }
 .about--page.nwboc {
   height: 750px;
@@ -89,6 +111,8 @@
     background: linear-gradient(40deg, rgba(38, 180, 199, 1) 0%, rgba(69, 159, 221, 1) 100%);
     border-radius: 4px;
     box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.2), 0 1px 4px rgba(0, 0, 0, 0.02), 0 0 40px rgba(0, 0, 0, 0.2) inset;
+    transform: translateX(200px);
+    opacity: 0;
   }
   .nwboc--image {
     max-width: 100%;
@@ -96,6 +120,8 @@
     display: block;
     position: relative;
     z-index: 2;
+    opacity: 0;
+    transform: translateY(125px);
   }
   .content--wrap {
     position: relative;
@@ -106,6 +132,8 @@
     .cls-3 {
       fill: #03163B;
     }
+    opacity: 0;
+    transform: scale(0);
   }
   .module {
     display: flex;
@@ -117,10 +145,20 @@
     bottom: -280px;
     right: -280px;
     width: 550px;
+    opacity: 0;
+    transform: translateX(-200px);
+    p {
+      opacity: 0;
+      transform: translateX(15px);
+    }
   }
   .circles {
     left: -100px;
     top: -60px;
+    transform: translateY(200px);
+    ellipse {
+      opacity: 0;
+    }
     .cls-5 {
       fill: none;
     }
@@ -146,6 +184,8 @@
     bottom: 17px;
     left: 1.5rem;
     position: absolute;
+    opacity: 0;
+    transform: translateX(-50px);
   }
   img {
     position: relative;
@@ -154,15 +194,22 @@
     display: block;
     margin: 0 auto;
   }
+  .image--one {
+    opacity: 0;
+    transform: translateX(50px);
+  }
   h1 {
     margin: 0;
-    font-size: 3.5rem;
-    line-height: 3rem;
   }
   h3 {
     margin-top: 5px;
     margin-bottom: 0;
-    font-size: 1.5rem;
+  }
+  h1.one,
+  h3.one,
+  p.one {
+    opacity: 0;
+    transform: translateY(50px);
   }
 }
 .staff--carousel .columns {

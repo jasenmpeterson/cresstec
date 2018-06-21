@@ -2,20 +2,36 @@
   padding: calc(2em - 1px) 1.75em calc(2em - 1px) 1.75em;
   border: none;
   border-radius: 0;
-  font-size: 14px;
+  font-size: $size-7;
   min-width: 14rem;
   color: #FFFFFF;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
+  transition: background-color 300ms;
   &.cresstec--green {
     background-color: #26B4C7;
+    &:hover {
+      background-color: #0093FF;
+    }
   }
   &.cresstec--blue {
     background-color: #0093FF;
+    &:hover {
+      background-color: #26B4C7;
+    }
   }
   &.cresstec--pink {
     background-color: #FF9090;
+    &:hover {
+      background-color: #19366E;
+    }
   }
   &.cresstec--dark--blue {
     background-color: #19366E;
+    &:hover {
+      background-color: #FF9090;
+    }
+  }
+  &:hover {
+    color: #FFFFFF;
   }
 }

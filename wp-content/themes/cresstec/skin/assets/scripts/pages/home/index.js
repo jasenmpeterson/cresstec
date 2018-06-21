@@ -274,6 +274,7 @@ if ($('body').hasClass('home')) {
     reverse: false,
   }).addTo(homeController)
     .on('enter', function() {
+      aboutSectionTimeline.timeScale(1.7);
       aboutSectionTimeline.play();
     });
 
@@ -283,6 +284,7 @@ if ($('body').hasClass('home')) {
     reverse: false,
   }).addTo(homeController)
     .on('enter', function() {
+      productsSectionTimeline.timeScale(1.7);
       productsSectionTimeline.play();
     });
 }

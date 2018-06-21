@@ -9,7 +9,7 @@ $cs-table-border-color: $base-silver-color;
 /* stylelint-disable selector-no-type */
 .content-style {
   @include text-size(default);
-  line-height: 1.5;
+  line-height: 2;
   color: $cs-text-color;
 
   p,
@@ -22,6 +22,11 @@ $cs-table-border-color: $base-silver-color;
     &:last-child {
       padding-bottom: 0;
     }
+  }
+
+  p,
+  li {
+    @include text-size(small);
   }
 
   .larger {

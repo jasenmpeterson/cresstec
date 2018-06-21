@@ -26,8 +26,7 @@ img {
   height: auto;
 }
 
-.page .main-content,
-.search .main-content {
+body:not(.home) .main-content {
   margin-top: 125px;
 }
 
@@ -198,9 +197,6 @@ img {
   padding: 40px;
   text-align: center;
   box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
-  h3 {
-    font-size: 1.2rem;
-  }
 }
 
 // Icons
@@ -365,7 +361,7 @@ img {
   h5,
   li,
   a {
-    font-size: 14px;
+    font-size: $size-6;
   }
   li {
     list-style-type: none;

@@ -136,11 +136,17 @@
   visibility: visible;
   transition-delay: 0s; /* react immediately on hover */
 }
-.main-navigation__item:hover a .cls-2 {
+.main-navigation__item:hover a .cls-2,
+.main-navigation__item--current_page_item a .cls-2,
+.main-navigation__item--current_page_ancestor a .cls-2,
+.main-navigation__item--current-page-ancestor a .cls-2 {
   fill-opacity: 1;
   transition: fill-opacity 0.5s ease-out;
 }
-.main-navigation__item:hover a .cls-1 {
+.main-navigation__item:hover a .cls-1,
+.main-navigation__item--current_page_item a .cls-1,
+.main-navigation__item--current_page_ancestor a .cls-1,
+.main-navigation__item--current-page-ancestor a .cls-1 {
   stroke-dashoffset: 0;
   stroke-opacity: 1;
   transition: stroke-opacity 1s ease-out, stroke-dashoffset 1s ease-out 0.1s;
