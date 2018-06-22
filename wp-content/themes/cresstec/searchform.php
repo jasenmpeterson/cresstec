@@ -1,4 +1,4 @@
-<form role="search" class="search--form" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+<form role="search" class="search--form">
 	<div>
 		<label class="screen-reader-text" for="s">
             <span>Begin your search here</span>
@@ -7,6 +7,6 @@
 
             </span>
         </label>
-		<input class="search--input" type="text" value="" name="s" id="s" placeholder="Search Products" />
+		<input class="search--input" type="text" placeholder="Search Products" />
 	</div>
 </form>

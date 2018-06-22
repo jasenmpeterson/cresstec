@@ -69,3 +69,16 @@ function productsPageAnimation() {
   }
 }
 productsPageAnimation();
+
+function productsAnimation() {
+  const section = document.querySelector('.products');
+  if (typeof(section) !== 'undefined' && section !== null) {
+    const innerWrap = document.querySelector('.products .inner--wrap');
+    TweenMax.to(innerWrap, 1, {
+      opacity: 1,
+      y: 0
+    });
+  }
+}
+
+productsAnimation();

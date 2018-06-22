@@ -31,7 +31,7 @@
 <div class="column is-3">
 	<aside class="products--sidebar sidebar">
         <div class="aside--inner">
-            <h5>Parts Database</h5>
+            <h5><a href="<?php get_permalink(48); ?>">Parts Database</a></h5>
             <a href="<?php echo get_permalink(50); ?>"><?php echo get_the_title(50); ?></a>
 	        <?php
 	            getPartsDatabaseChildren(48);

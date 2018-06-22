@@ -81,7 +81,7 @@ $login_button = get_field('log_in_button', 'options');
 		</div>
 	</div>
     <div class="buttons--wrap">
-        <a href="<?php echo $sign_up_button['page_link'] ?>" class="button cresstec--green"><?php echo $sign_up_button['text'] ?></a>
-        <a href="<?php echo $login_button['page_link'] ?>" class="button cresstec--blue"><?php echo $login_button['text'] ?></a>
+        <a href="#<?php // echo $sign_up_button['page_link'] ?>" class="button cresstec--green"><?php echo $sign_up_button['text'] ?></a>
+        <a href="#<?php //echo $login_button['page_link'] ?>" class="button cresstec--blue"><?php echo $login_button['text'] ?></a>
     </div>
 </div>

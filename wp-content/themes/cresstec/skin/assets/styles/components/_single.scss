@@ -1,11 +1,11 @@
-body.single {
-  background-color: #E7EBF0;
-}
 .single {
+  background-color: #E7EBF0;
   .single__content {
     max-width: 80em;
-    margin: 0 auto;
-    padding-bottom: 20em;
+    position: relative;
+  }
+  .post--wrap {
+    padding: 5em;
   }
   .single__image {
     height: 500px;
@@ -17,6 +17,6 @@ body.single {
     margin: 0;
   }
   header {
-    margin: 20px 0;
+    margin-bottom: 1em;
   }
 }

@@ -20,18 +20,4 @@
   .form--textarea {
     width: 100%;
   }
-  input:not([type=submit]),
-  textarea {
-    border-radius: 4px;
-    border: none;
-    padding: 15px !important;
-    background-color: #8396B5;
-    color: #ffffff;
-    box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
-  }
-  .gform_button {
-    background-color: #26B4C7;
-    padding: 0;
-    height: 50px;
-  }
 }

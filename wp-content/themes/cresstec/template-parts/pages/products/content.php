@@ -10,7 +10,7 @@ $children_args = array(
 $children = get_children($children_args);
 ?>
 <div class="column">
-    <div class="page--content--wrap products products--search">
+    <div class="page--content--wrap products--search">
 		<?php get_template_part('template-parts/quote-button/quote-button'); ?>
         <div class="inner--wrap">
             <div class="search--icon--wrap">

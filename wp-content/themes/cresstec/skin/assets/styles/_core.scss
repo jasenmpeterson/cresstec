@@ -355,8 +355,24 @@ body:not(.home) .main-content {
 
 // Sidebar
 .sidebar {
+  background: #19366E;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  .aside--inner {
+    width: 80%;
+    margin: 0 auto;
+    padding: 75px 0;
+  }
+  .aside--inner > h6 {
+    margin-top: 0;
+  }
   h5 {
     color: #0B8EFF;
+    a {
+      font-size: 0.8rem;
+      color: #0B8EFF;
+    }
   }
   h5,
   li,
@@ -412,7 +428,7 @@ body:not(.home) .main-content {
     width: 5px;
     height: 5px;
     position: absolute;
-    top: 6px;
+    top: 11px;
     left: -15px;
     background-color: #FFFFFF;
   }
@@ -472,9 +488,44 @@ body:not(.home) .main-content {
   top: 150px;
   right: 0;
   z-index: 5;
+  span {
+    display: block;
+    transition: all 350ms;
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+  .quote--button {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    z-index: 2;
+  }
   .button {
     height: 85px;
     min-width: 0;
+    transition: all 350ms;
+  }
+  .button.active {
+    min-width: 750px;
+    span {
+      position: absolute;
+      left: 25px;
+    }
+  }
+}
+
+.quote--form {
+  background-color: #FFFFFF;
+  padding: 3em;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  transition: all 350ms 100ms ease-out;
+  opacity: 0;
+  transform: translateX(50px);
+  &.active {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
@@ -593,4 +644,52 @@ body:not(.home) .main-content {
 
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: #FFFFFF;
+}
+
+// Date
+
+.date {
+  color: #26B4C7;
+  margin: 15px 0;
+  font-size: 0.8rem;
+  display: block;
+}
+
+.posts--list {
+  .date {
+    margin: 0;
+    font-size: 0.7rem;
+  }
+  a {
+    font-size: 0.8rem;
+    display: block;
+  }
+  li {
+    margin: 0;
+  }
+  li:not(:last-child) a {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 0.8em 0;
+  }
+  li:last-child a {
+    padding-top: 0.8em;
+  }
+}
+
+// Contact Form
+
+input:not([type=submit]),
+textarea {
+  border-radius: 4px;
+  border: none !important;
+  padding: 15px !important;
+  background-color: #8396B5;
+  color: #ffffff;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+}
+.gform_button {
+  background-color: #26B4C7;
+  padding: 0 !important;
+  min-width: 14rem !important;
+  height: 50px !important;
 }

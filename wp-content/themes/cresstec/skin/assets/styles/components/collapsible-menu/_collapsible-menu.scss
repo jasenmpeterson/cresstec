@@ -3,14 +3,36 @@
 }
 .collapsible-menu {
   .collapsible-menu {
-    visibility: hidden;
+    &::before {
+      height: 0;
+    }
     height: 0;
     margin: 0;
+    opacity: 0;
+    pointer-events: none;
+    li {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    li a {
+      font-size: $size-7;
+    }
   }
   .collapsible-menu.active {
-    visibility: visible;
+    &::before {
+      height: 100%;
+      transition: 300ms ease-out;
+    }
+    pointer-events: auto;
     height: auto;
+    opacity: 1;
     margin-top: 25px;
+    transition: height 350ms;
+    li {
+      opacity: 1;
+      transform: translateX(0);
+      transition: opacity 350ms 100ms, transform 350ms 200ms;
+    }
   }
 }
 .active-collapsible-trigger {

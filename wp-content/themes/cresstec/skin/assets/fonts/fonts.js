@@ -1,5 +1,5 @@
-// import './theme_font.eot';
-// import './theme_font.svg';
-// import './theme_font.ttf';
-// import './theme_font.woff';
-// import './theme_font.ttf';
+import './open-sans-v15-latin-regular.eot';
+import './open-sans-v15-latin-regular.svg';
+import './open-sans-v15-latin-regular.ttf';
+import './open-sans-v15-latin-regular.woff';
+import './open-sans-v15-latin-regular.woff2';

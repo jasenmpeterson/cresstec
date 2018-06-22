@@ -18,3 +18,4 @@ import './pages/home/index';
 import './pages/about/index';
 import './pages/products/index';
 import './components/collapsible-menu';
+import './components/request-quote';
