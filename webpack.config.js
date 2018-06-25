@@ -12,7 +12,7 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const appPath = `${path.resolve(__dirname)}`;
 
 // Dev Server
-const proxyUrl = 'localhost.cresstec:9999'; // local dev url example: dev.wordpress.com
+const proxyUrl = 'http://cress.ellpreview.com'; // local dev url example: dev.wordpress.com
 
 // Theme
 const themeName = 'cresstec';

@@ -147,6 +147,7 @@ function aboutPageAnimation() {
     let aboutPageNWBOCScene = new ScrollMagic.Scene({
       triggerElement: '.about--page.nwboc',
       reverse: false,
+      offset: 200,
     }).addTo(aboutController)
       .on('enter', function() {
         aboutPageTimelineNWBOCSection.play();
